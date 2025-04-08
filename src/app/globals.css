@@ -5,6 +5,17 @@
 * {
 }
 
-input{
-    
+.ant-steps-item-content {
+  display: flex !important;
+  flex-direction: column-reverse !important;
+  gap: 4px !important;
+}
+
+.ant-steps-item-description {
+  padding-bottom: 0px !important;
+}
+
+.ant-steps-item-title {
+  line-height: 20px !important;
+  color: black !important;
 }
