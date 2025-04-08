@@ -47,7 +47,7 @@ const Header = () => {
             <PlusOutlined />
             <CaretDownOutlined />
           </div>
-          <div className="issues border border-gray-300 rounded-lg p-[6px]">
+          <div className="issues flex items-center border border-gray-300 rounded-lg p-[6px]">
             <IssuesSvg />
           </div>
           <div className="pr border border-gray-300 rounded-lg p-[6px]">

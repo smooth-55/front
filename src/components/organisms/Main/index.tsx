@@ -11,14 +11,14 @@ const Main = () => {
       <div className=" header__container min-h-[40px] ">
         <Header />
       </div>
-      <div className="header__container flex gap-4 flex-row w-full">
-        <div className="left__container w-[450px]">
+      <div className="header__container flex gap-4 flex-row w-full px-2">
+        <div className="left__container max-w-[450px]">
           <LeftContainer />
         </div>
         <div className=" feed_container  w-full flex-1 ">
           <MainContainer />
         </div>
-        <div className=" right__containt w-[450px]  ">
+        <div className=" right__containt max-w-[450px]  ">
           <RightContainer />
         </div>
       </div>
