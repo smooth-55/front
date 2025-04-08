@@ -1,5 +1,5 @@
 const ExploreRepo = () => {
-  return <>Explore</>;
+  return <>Explore repositories</>;
 };
 
 export { ExploreRepo };
