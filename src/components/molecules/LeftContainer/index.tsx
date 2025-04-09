@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const LeftContainer = () => {
   return (
-    <section className="left__container pt-4 px-2 max-h-[100vh] overflow-y-scroll">
+    <section className="left__container pt-4 px-2 max-h-[120vh] overflow-y-scroll py-3">
       <div className="user__info flex items-center gap-2">
         <Image
           src="/assets/avatar.png"
@@ -37,6 +37,8 @@ const LeftContainer = () => {
         {Array.from({ length: 20 }).map((_, i) => (
           <Repo key={i} />
         ))}
+        <Repo />
+        <Repo />
         <Repo />
         <Repo />
         <Repo />
