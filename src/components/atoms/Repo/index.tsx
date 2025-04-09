@@ -1,6 +1,10 @@
+import { RepoType } from "@/types";
 import Image from "next/image";
 
-const Repo = () => {
+type iPropType = {
+  item: RepoType;
+};
+const Repo = ({ item }: iPropType) => {
   return (
     <div className="repo_item flex  flex-row gap-2 items-center max-w-[300px]">
       <Image
@@ -10,7 +14,7 @@ const Repo = () => {
         height={20}
         className="rounded-full"
       />
-      <p className="repo__name">{"readytowork-org/proj-xxxx-api"}</p>
+      <p className="repo__name">{`${item.username}/${item.repoName}`}</p>
     </div>
   );
 };
